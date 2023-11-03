@@ -1,0 +1,67 @@
+.home-bg{
+    background-image: url(../assets/fashion-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.home-bg::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+}
+.about-bg{
+    background-image: url(../assets/about-bg-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 485px;
+    position: relative;
+}
+.about-bg::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+} 
+.about-header {
+    background: linear-gradient(135deg, #3f4858,#43baae);
+    color: white;
+    padding: 5px 100px;
+    border-radius: 10px;
+}
+.product-bg{
+    background-image: url(../assets/product-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.product-bg::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+} 
+.contact-bg{
+    background-image: url(../assets/contact-bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.contact-bg::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+} 
